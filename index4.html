@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+<div class="container">
+    <div class="row my-5">
+        <div class="col-md-12 text-center">
+            <h2 class="text-success my-4">GeeksforGeeks</h2>
+            <h3 class="my-2">Bootstrap | Open dropdown menu on hover</h3>
+            <ul class="list-unstyled">
+                <li class="d-inline-block dropdown">
+                    <button type="button" class="bg-white btn text-info">Home</button>
+                </li>
+                <li class="d-inline-block dropdown">
+                    <button type="button" class="bg-white btn text-info">Login</button>
+                </li>
+                <li class="d-inline-block dropdown">
+                    <button type="button" class="bg-white btn text-info">SignUp</button>
+                </li>
+                <li class="d-inline-block dropdown">
+                    <button type="button" class="bg-white btn text-info" data-toggle="dropdown">Menu</button>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">Algo</li>
+                        <li class="dropdown-item">Gate</li>
+                        <li class="dropdown-item">Subject</li>
+                        <li class="dropdown-item">Practise</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<script src="js/jQuery.min.js"></script>
+<script src="js/src/popover.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
+<!--
+    Bootstrap ranglari: 1.muted - kuldrang; 2.primary-ko'k; 3.success-yashil;
+    4.info - havorang; 5.warning - sariq; 6.danger - qizil; 7.secondary - och-kuldrang;
+    8.dark - qora; 9.white(light) - oq.
+-->
